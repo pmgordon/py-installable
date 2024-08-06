@@ -22,7 +22,7 @@ package-dir = {"" = "src"}
 include-package-data = false
 
 [tool.setuptools.dynamic]
-version = {attr = "cli_command.__version__"}
+version = "0.1.0"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -35,7 +35,7 @@ commit_parser = "angular"
 logging_use_named_masks = false
 major_on_zero = true
 tag_format = "v{version}"
-version_variables = ["cli_command.__version__"]
+version_toml = ["pyproject.toml:tool.setuptools.dynamic.version"]
 
 
 [tool.semantic_release.branches.main]
