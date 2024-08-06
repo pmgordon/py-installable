@@ -2,6 +2,13 @@
 
 
 
+## v0.1.1 (2024-08-06)
+
+### Fix
+
+* fix: wip ([`deda527`](https://github.com/pmgordon/py-installable/commit/deda52772c23c47ce471ce5c39703d22a0184ae2))
+
+
 ## v0.1.0 (2024-08-06)
 
 ### Feature
