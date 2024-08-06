@@ -43,4 +43,3 @@ Uninstall
 ```
 pip uninstall cli-command 
 ```
-
