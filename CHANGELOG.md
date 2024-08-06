@@ -2,6 +2,13 @@
 
 
 
+## v0.1.2 (2024-08-06)
+
+### Fix
+
+* fix: version in toml ([`c40c862`](https://github.com/pmgordon/py-installable/commit/c40c862f34c3f13277dae5740274cbeb15fac233))
+
+
 ## v0.1.1 (2024-08-06)
 
 ### Fix
