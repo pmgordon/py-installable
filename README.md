@@ -16,3 +16,31 @@ To run all tests execute `make test`
 
 ### Coverage Report
 To run all tests execute `make coverage`
+
+
+# Installation
+
+### Install command from package
+
+Install
+```
+pip install . 
+```
+Uninstall
+```
+pip uninstall cli-command   
+```
+
+### Install from github
+
+Install
+
+```
+pip install git+https://github.com/pmgordon/py-installable
+```
+
+Uninstall
+```
+pip uninstall cli-command 
+```
+
