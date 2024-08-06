@@ -39,6 +39,11 @@ Install
 pip install git+https://github.com/pmgordon/py-installable
 ```
 
+Install Specific version
+```
+pip install git+https://github.com/pmgordon/py-installable@0.1.0
+```
+
 Uninstall
 ```
 pip uninstall cli-command 

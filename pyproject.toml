@@ -1,5 +1,5 @@
 [project]
-dynamic = ["version"]
+version = "0.1.1"
 
 name = "cli_command"
 description = "Template to pip install from github"
@@ -21,9 +21,6 @@ build-backend = "setuptools.build_meta"
 package-dir = {"" = "src"}
 include-package-data = false
 
-[tool.setuptools.dynamic]
-version = "0.1.1"
-
 [tool.setuptools.packages.find]
 where = ["src"]
 exclude = ["contrib", "docs", "tests*", "tasks"]
@@ -35,7 +32,7 @@ commit_parser = "angular"
 logging_use_named_masks = false
 major_on_zero = true
 tag_format = "{version}"
-version_toml = ["pyproject.toml:tool.setuptools.dynamic.version"]
+version_toml = ["pyproject.toml:project.version"]
 
 
 [tool.semantic_release.branches.main]
