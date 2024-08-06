@@ -2,6 +2,13 @@
 
 
 
+## v0.1.1 (2024-08-06)
+
+### Fix
+
+* fix: force release ([`09cbec7`](https://github.com/pmgordon/py-installable/commit/09cbec711c6942dcbd4e5bc8851801b2286034f3))
+
+
 ## v0.1.0 (2024-08-06)
 
 ### Feature
