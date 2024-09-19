@@ -1,16 +1,17 @@
 [project]
 version = "0.1.2"
+dynamic = ["dependencies"]
 
 name = "cli_command"
 description = "Template to pip install from github"
 readme = "README.md"
 requires-python = ">= 3.7"
 
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
 [project.scripts]
 py-command = "cli_command.main:main"
-
-[project.gui-scripts]
-py-command-gui  = "cli_command.main:main"
 
 [build-system]
 # The lower bound is for <https://github.com/pypa/setuptools/issues/3865>.

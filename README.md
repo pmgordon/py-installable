@@ -48,3 +48,10 @@ Uninstall
 ```
 pip uninstall cli-command 
 ```
+
+## Test
+Run the command
+```
+(.pyenv) paul:py-installable/ (main) $ py-command                                                                                                                                       [11:26:35]
+This is the main
+```

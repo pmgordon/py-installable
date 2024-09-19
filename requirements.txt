@@ -1,5 +1,1 @@
 configparser
-pylint
-pytest
-pytest-mock
-pytest-cov
